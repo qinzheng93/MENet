@@ -1,10 +1,10 @@
 checkpoints
 *.err
 *.log
-*.tar
 **/*.pyc
 **/__pycache__
 results
+base_model
 
 # Jupter Notebook and Graphviz
 *.ipynb

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the code for **MENet** (*Merging-and-Evolution* networks), a new family of compact networks which alleviate the loss of inter-group information in ShuffleNet[^1].
+This repository contains the code for **MENet** (*Merging-and-Evolution* networks), a new family of compact networks which alleviate the loss of inter-group information in [ShuffleNet](https://arxiv.org/abs/1707.01083).
 
 The key idea of MENet is to utilize a **merging** operation and an **evolution** operation on the feature map generated from a group convolution for leveraging the inter-group information. The merging and evolution operations encode features across all channels into a narrow feature map, and combine it with the original network for better representation.
 
@@ -11,7 +11,7 @@ MENet is composed of **ME modules**, whose structure is illustrated in Figure 1.
 ![ME module](https://raw.githubusercontent.com/clavichord93/MENet/master/screenshots/ME_module.png)
 Figure 1. The structure of ME module. *(a)*: Standard ME module. *(b)*: Downsampling ME module. *GConv*: Group convolution. *DWConv*: Depthwise convolution.
 
-[^1]: [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/abs/1707.01083)
+Our paper ([arXiv](https://arxiv.org/abs/1803.09127)) has been accepted as a conference paper by IJCNN 2018.
 
 ## Requirements
 
